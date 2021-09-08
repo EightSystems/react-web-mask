@@ -19,12 +19,10 @@ jobs:
           always-auth: true
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies
-        working-directory: ./packages/core
         run: |
           yarn
           yarn build
       - name: Release package
-        working-directory: ./packages/core
         run: yarn publish:npm
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
