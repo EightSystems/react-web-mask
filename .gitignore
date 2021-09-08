@@ -1,0 +1,12 @@
+# General
+node_modules/
+.vscode/
+.idea/
+
+# Build files
+build
+dist
+lib
+
+# MacOS
+.DS_Store
