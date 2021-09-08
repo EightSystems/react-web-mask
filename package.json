@@ -17,6 +17,11 @@
   "repository": {
     "type": "git"
   },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,css,html,md,yml}": [
+      "yarn format"
+    ]
+  },
   "peerDependencies": {
     "react": ">=17.0.1",
     "react-dom": ">=17.0.1"
