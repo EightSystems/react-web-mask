@@ -20,4 +20,4 @@ export {
   MoneyMask,
   OnlyNumbersMask,
   ZipCodeMask,
-}
+};
