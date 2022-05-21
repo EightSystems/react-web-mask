@@ -1,6 +1,6 @@
 {
   "name": "react-web-mask",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Masked inputs for web React applications.",
   "license": "MIT",
   "main": "dist/index.js",
