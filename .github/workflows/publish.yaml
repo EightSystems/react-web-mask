@@ -15,7 +15,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_SEMANTIC_TOKEN }}
         with:
-          node-version: "12.x"
+          node-version: "14.x"
           always-auth: true
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies
