@@ -31,14 +31,16 @@ class TextInputMask extends BaseTextComponent {
   }
 
   _propsParsed(props) {
-    const newProps = props;
+    //Temporarily disabling it until I figure out why this was created at first place
+    /*const newProps = props;
     Object.keys(props).forEach(prop => {
       if (typeof props[prop] === "boolean") {
         newProps[prop] = props[prop].toString();
       }
     });
 
-    return newProps;
+    return newProps;*/
+    return props;
   }
 
   render() {
