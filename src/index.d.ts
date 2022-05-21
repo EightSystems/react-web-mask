@@ -14,6 +14,8 @@ export interface TextInputMaskProps {
     | "datetime"
     | "custom";
 
+  options?: any;
+
   checkText?: (value, text) => boolean;
   onChangeText?: (newValue: string) => void;
 }
