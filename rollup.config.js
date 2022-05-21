@@ -22,6 +22,10 @@ export default {
           src: "src/masks/utils",
           dest: "dist/",
         },
+        {
+          src: "src/index.d.ts",
+          dest: "dist/",
+        },
       ],
     }),
     resolve({ jsnext: true }),
